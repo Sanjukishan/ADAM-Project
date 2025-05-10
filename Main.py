@@ -1,17 +1,17 @@
-import datetime
+import speech_recognition as sr
+import pyttsx3
 import os
-import platform
 import subprocess
-import time
-
-import cv2
+import pyautogui
+import psutil
+import pyperclip
 import keyboard
+import time
+import datetime
+import platform
+import cv2
 import mediapipe as mp
 import numpy as np
-import psutil
-import pyautogui
-import pyttsx3
-import speech_recognition as sr
 
 # Initialize text-to-speech engine
 engine = pyttsx3.init()
