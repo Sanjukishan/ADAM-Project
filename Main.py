@@ -4,7 +4,6 @@ import os
 import subprocess
 import pyautogui
 import psutil
-import pyperclip
 import keyboard
 import time
 import datetime
@@ -15,8 +14,8 @@ import numpy as np
 
 # Initialize text-to-speech engine
 engine = pyttsx3.init()
-engine.setProperty('rate', 150)  # Speed of speech
-engine.setProperty('volume', 0.9)  # Volume (0.0 to 1.0)
+engine.setProperty('rate', 150)
+engine.setProperty('volume', 0.9)
 
 # Initialize speech recognizer
 recognizer = sr.Recognizer()
